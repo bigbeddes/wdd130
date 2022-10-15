@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Oswald&family=Sriracha&family=Ubuntu&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,8 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: Sriraccha, "Nanum Brush Script", serif;
+    padding: 35px;
 }
 nav a:hover{
     color: #9af26b;
@@ -21,17 +24,29 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 body{
     background-color: #371837;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     color: white ;
     background-color: #371837;
+
 }
 .book, .join{
     color: white;
     background-color: #371837;
     text-decoration:none;
+    font-family: Sriraccha, "Nanum Brush Script", serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color: #9af26b;
@@ -43,18 +58,18 @@ header {
     color: white ;
     background-color: #371837;
 }
-.msg{
-    color: white ;
-    background-color: #371837;
-}
 footer{
     color: white ;
     background-color: #371837;
+    font-family: Sriraccha, "Nanum Brush Script", serif;
+    padding:25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: white ;
     background-color: #371837;
     text-decoration: none;
+    font-family: Sriraccha, "Nanum Brush Script", serif;
 }
 footer a:hover{
     color: #9af26b;
@@ -67,29 +82,59 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .home-title{
     color:white;
-    background-color:#371837
+    background-color:#371837;
+    font-family: Sriraccha, "Nanum Brush Script", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:white;
     background-color: #371837;
+    font-family: Sriraccha, "Nanum Brush Script", serif;
 }
 h2{
     color:white;
     background-color: #371837; 
+    font-family: Sriraccha, "Nanum Brush Script", serif;
+    margin: 0;
+
+}
+.msg{
+    color: white ;
+    background-color: #371837;
+    font-family: Oswald, Ubuntu, sans-serif;
+    font-size: .8em;
+    line-height: 1.5 em;
+    padding: 35px;
 }
 .msg h2{
     color:white;
     background-color: #371837;
+
 }
 .msg p{
     color:white;
     background-color: #371837;
+    padding-bottom: 15px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
+}
+.logo_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #A25EF2;
 }

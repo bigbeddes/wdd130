@@ -1,37 +1,36 @@
-
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Oswald&family=Sriracha&family=Ubuntu&display=swap');
-
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Fresca&family=Karma&family=Kelly+Slab&family=Monda&family=Nova+Cut&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #371837   ;
-  --secondary-color: #A25EF2 ;
-  --accent1-color: #9af26b;
-  --accent2-color: white;
+  --primary-color: #000000   ;
+  --secondary-color: #14213d ;
+  --accent1-color: #fca311;
+  --accent2-color: #e5e5e5;
+  --accent3-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Sriraccha, "Nanum Brush Script";
-  --paragraph-font: Oswald, Ubuntu, sans-serif;
+  --heading-font: "Nova Cut", "Bona Nova", Karma, sarif;
+  --paragraph-font: Fresca, Monda, sans-sarif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #371837;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #371837; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #371837  ;
-  --nav-link-color:white  ;
-  --nav-background-color: #371837;
-  --nav-hover-link-color: #9af26b;
-  --nav-hover-background-color: #A25EF2;
+  --headline-color-on-white: #000000;  /* headlines on a white background */ 
+  --headline-color-on-color: #fca311; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #14213d; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #fca311; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #14213d  ;
+  --nav-link-color: #000000;
+  --nav-background-color: #e5e5e5;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #000000;
 }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
@@ -40,7 +39,6 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -63,6 +61,7 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
+
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
@@ -78,28 +77,33 @@ p {
   background-color: #999;
 }
 .colors td{
-  width: 25%;
+  width: 20%;
   height: 3em;
 }
+
 .primary {
   background-color: var(--primary-color);
+  color: #fca311;
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: #e5e5e5;
 }
 .accent1 {
   background-color: var(--accent1-color);
 }
 .accent2{
   background-color: var(--accent2-color);
+  color:#14213d;
 }
 .accent3{
-  background-color: var(--accent3-color);
+    background-color: var(--accent3-color);
 }
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
+
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -109,12 +113,14 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -123,6 +129,7 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
 .sitemap {
   display: grid;
   justify-content: center;
@@ -135,7 +142,9 @@ nav a:hover {
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
+
   text-align: center;
+
 }
 .sm-home {
   grid-area: home;
@@ -152,15 +161,18 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+
 .top {
   grid-area: top;
   border-left: 1px solid;
 }
+
 .left {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
 }
+
 .right {
   grid-area: right;
   border-top: 1px solid;

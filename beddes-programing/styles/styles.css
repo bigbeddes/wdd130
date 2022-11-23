@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Fresca&family=Karma&family=Kelly+Slab&family=Monda&family=Nova+Cut&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: "nova cut", "bona nova", karma, serif;
+    padding: 20px;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+header{
+    background-color:#e5e5e5;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+.logo{
+    width: 180px;
+}
+#logo_link{
+    background-color: #e5e5e5;
+}
+#home_content{
+    margin: 0 auto;
+    color: #fca311;
+    background-color: #14213d;
+}
+h2{
+    font-family: "nova cut", "bona nova", karma, serif;
+    padding-left: 20px;
+}
+.mission{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+.mission p{
+    grid-column:1/2;
+    padding-right: 20px;
+    padding-left: 40px;
+    font-family: fresca, monda, "sans-sarif";
+    color:#fca311
+}
+.mission img{
+    grid-column:2/3;
+    width: 95%
+}
+.values{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+.values p{
+    grid-column:1/2;
+    padding-right: 20px;
+    padding-left: 40px;
+    font-family: fresca, monda, "sans-sarif";
+    color: #fca311;
+}
+.values img{
+    grid-column:2/3;
+    width: 95%
+}
+.vision{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+.vision p{
+    grid-column:1/2;
+    padding-right: 20px;
+    padding-left: 40px;
+    font-family: fresca, monda, "sans-sarif";
+    color: #fca311;
+}
+.vision img{
+    grid-column:2/3;
+    width: 95%
+}
+footer{
+    background-color: #e5e5e5;
+    font-family: "nova cut", "bona nova", karma, serif;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    align-items:center;
+}
+footer a,p{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+footer a:hover{
+    background-color: black;
+    color: white;
+    text-decoration:underline;
+}
+footer .linkedin img{
+    padding-top:5px;
+    width: 40px;
+}
+
